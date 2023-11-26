@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "node-env-config-file-loader": "^1.0.2"
+  }
+}

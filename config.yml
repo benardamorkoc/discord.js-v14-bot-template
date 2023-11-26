@@ -1,0 +1,15 @@
+bot:
+  # Discord botunuzun tokeni
+  token: ''
+  # Discord botunuzun application idsi
+  id: ''
+  # Discord botunun durum kısmı
+  status:
+    # Discord botunun açıklma kısmındaki event; playing = Oynuyor, streaming = Yayında, listening = Dinliyor, watching = İzliyor, competing = Yarışmada yarışıyor.
+    activity: 'watching'
+    # Discord botunun açıklama yazısı; %usersCount%, %guildsCount% fonksyonlarını kullanabilirsiniz.
+    text: ['%usersCount% Kullanıcı', '%guildsCount% Sunucu']
+    # Discord botunun açıklma kısmındaki event streaming olarak ayarlanırsa aşağıdaki twitch kısmını doldurunuz.
+    twitch: ''
+    # Discord botunun aktiflik kısmı; online = Aktif, idle = Boşta, dnd = Rahatsız Etmeyin, invisible = Çevrimdışı.
+    status: 'idle'
